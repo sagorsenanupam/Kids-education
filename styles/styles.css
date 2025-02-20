@@ -179,6 +179,18 @@
   margin-top: -40px;
 }
 
+/* Footer styles */
+.footer {
+  display: flex;
+  background-color: #01acfd;
+  color: #ffffff;
+  padding: 123px 228px 174px 140px;
+}
+.footer-icon {
+  display: flex;
+  gap: none;
+}
+
 /* Responsive Query */
 @media screen and (max-width: 576px) {
   .nav {
