@@ -185,10 +185,45 @@
   background-color: #01acfd;
   color: #ffffff;
   padding: 123px 228px 174px 140px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
-.footer-icon {
+
+.footer-left {
+  margin: 0px;
+}
+.footer-logo {
   display: flex;
   gap: none;
+  align-items: start;
+}
+.footer-icon {
+  margin: 0px;
+}
+.footer-description {
+  font-size: 1.25rem;
+  width: 400px;
+  height: 100px;
+  margin-top: 36px;
+}
+
+.footer-title {
+  font-size: 2.633rem;
+}
+
+/* Footer middle */
+.footer-lists li {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  font-size: 20px;
+  gap: 10px;
+}
+.footer-nav {
+}
+.about-school {
+  font-size: 24px;
+  font-weight: bold;
 }
 
 /* Responsive Query */
