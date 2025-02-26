@@ -150,33 +150,40 @@
 }
 
 /* Third Section Styles */
+.btn-third {
+  margin-top: -400px;
+}
+.third-section-right-part {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 20px;
+  width: 50%;
+}
+.third-section-left-part {
+  width: 50%;
+}
+
 .third-section {
-  background-image: url("../assets/bg.png"),
-    linear-gradient(to top, #f3d49f 0%, #ffffff 100%);
+  display: flex;
+  align-items: center;
+  background-color: #f3f4f6;
 }
-.third-section-title {
-  font-size: 3rem;
-  font-weight: bold;
-  margin-top: 120px;
-  margin-bottom: 80px;
-  text-align: center;
-}
-.third-section-container {
-  height: 630px;
-}
-/* Left part */
-.third-section-left-box-img {
-  margin: 0 auto;
+.card {
+  background: white;
   border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
-.third-section-left-box {
-  border: 1px solid red;
-  width: 540.27px;
-  justify-items: flex-start;
-  border-radius: 12px;
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
-.third-section-left-box-btn {
-  margin-top: -40px;
+.card-content {
+  padding: 39px;
+}
+.btn-third {
+  margin-top: -70px;
 }
 
 /* Footer styles */
